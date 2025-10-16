@@ -52,7 +52,7 @@ function LoginForm() {
           return;
         }
 
-        const response = await fetch('http://localhost:5001/api/auth/register', {
+        const response = await fetch('https://dishu-1gg7.onrender.com/api/auth/register', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
