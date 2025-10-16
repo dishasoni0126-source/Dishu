@@ -24,7 +24,7 @@ function LoginForm() {
 
     try {
       if (mode === 'login') {
-        const response = await fetch('http://localhost:5001/api/auth/login', {
+        const response = await fetch('https://dishu-1gg7.onrender.com/api/auth/login', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
